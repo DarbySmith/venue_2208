@@ -71,7 +71,7 @@ describe Venue do
       venue.add_patron('Callie')
       expect(venue.over_capacity?).to be true
       venue.kick_out
-      expect(venue.over_capacity?).to be false 
+      expect(venue.over_capacity?).to be false
     end
   end
 end
